@@ -1,4 +1,9 @@
 body {
     align-items: center;
-    back
+    background-image: url(images/fondo);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
+
+@mixin white-gradient 
