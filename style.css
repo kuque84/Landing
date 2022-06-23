@@ -1,0 +1,113 @@
+html, body {
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+.full{
+    width: 100%;
+    height: 100%;
+    background: url("aprender_a_programar.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    margin: 0;
+    top: 0;    
+}
+
+.full-inner{
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.content{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.content h1{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 500%;
+    color:lime;
+    text-shadow: 0 0 300px black;
+}
+.content h2{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 250%;
+    color:lime;
+    text-shadow: 0 0 300px black;
+}
+.content h3{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 175%;
+    color:lime;
+    text-shadow: 0 0 300px black;
+}
+
+.content a{
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    text-decoration: none;
+    color: lime;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    border: 5px solid;
+    padding: 7px 13px;
+}
+
+.content a:hover{
+    color: gold;
+}
+
+p{
+    font: 160%;
+    line-height: 200%;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+.título{
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    display: table;
+    margin: 10px;
+}
+.contenido{
+    font-family: 'Century Gothic', sans-serif;
+    display: table;
+    margin: 20px;
+}
+footer{
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background-color: #0A0B0F;
+    color: lime;
+    margin: auto;
+    text-align: center;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    border: 5px solid;
+    padding: 7px 13px;
+}
+.parrafo {
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background-color: #0A0B0F;
+    color: lime;
+    margin: auto;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    border: 5px solid;
+    padding: 7px 13px;
+}
