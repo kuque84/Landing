@@ -86,7 +86,7 @@
     #slide8:checked ~ #controls label:nth-child(9), 
     #slide9:checked ~ #controls label:nth-child(10), 
     #slide10:checked ~ #controls label:nth-child(1) {
-    background: url(/images/next.jpeg) no-repeat;
+    background: url(/images/n1.png) no-repeat;
     float: right;
     margin: 0 -70px 0 0;
     display: block;
@@ -101,7 +101,7 @@
     #slide8:checked ~ #controls label:nth-child(7),
     #slide9:checked ~ #controls label:nth-child(8),
     #slide10:checked ~ #controls label:nth-child(9) {
-    background: url(/images/prev.jpeg) no-repeat;
+    background: url(/images/p1.png) no-repeat;
     float: left;
     margin: 0 0 0 -70px;
     display: block;
