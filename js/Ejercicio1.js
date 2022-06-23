@@ -12,32 +12,30 @@ document.write(`
 <body>
     <section class="full">
         <div class="full-inner">
-            <div class="content">`)
-/* Fin comienzo de estilo */
-document.write("<h1>Ejercicio 1</h1>");
-document.write(`<h2>Validar mayoría de edad.</h2><hr>`);
-ejecutar();
-/* Inicio fin de estilo */
-document.write(`
+            <div class="content">
             </div>
         </div>
     </section>
+
+<section id="contact"> <!-- HTML5 section tag for the contact 'section' -->
+        <h2 class="contact">Contact Me</h2>
+    <p>Alguna huevada en parrafo</p>
+    <form id="contactform"> 
+        <p><label for="name">Name</label></p> 
+        <input type="text" id=name name=name placeholder="First and last name" required tabindex="1" /> 
+        
+        <p><label for="email">Email</label></p> 
+        <input type="text" id=email name=email placeholder="example@domain.com" required tabindex="2" /> 
+        
+        <p><label for="comment">Your Message</label></p> 
+        <textarea name="comment" id="comment" tabindex="4"></textarea> 
+        
+        <input name="submit" type="submit" id="submit" tabindex="5" value="Send Message" /> 
+    </form> 
+</section>
 </body>
 <footer class="footer">
 Grupo 8<br>
 Alan Abt - Ariel Berurena - Eugenio Regis<br>
 </footer>`)
 /* Fin finalizacion de estilo */
-
-function ejecutar (){
-    let Edad = parseInt(prompt("Ingrese su Edad"));
-    document.write(`<h3>Edad: ${Edad}<br>`)
-    if (Edad >=18){
-        document.write(`"Ud. es mayor de edad"</h3>`);
-    }else{
-        document.write(`"Ud. es menor de edad"</h3>`);
-    }
-    document.write("<h3>");
-    document.write(`<a href="index.html">Inicio</a>`);
-    document.write("</h3>");
-}

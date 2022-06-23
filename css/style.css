@@ -9,6 +9,8 @@ html, body {
     width: 100%;
     height: 100%;
     background: url(/images/fondo.jpeg) no-repeat 50% 50%;
+    background-repeat:no-repeat;
+	background-attachment: fixed;
     background-size: cover;
     display: table;
     margin: 0;
@@ -20,7 +22,21 @@ html, body {
     vertical-align: middle;
     display: table-cell;
 }
-
+.full-1{
+    width: 100%;
+    height: 15%;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    color: lime;
+    margin: auto;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    border: 5px solid;
+    padding: 7px 13px;
+}
 .content{
     max-width: 700px;
     margin: auto;
@@ -82,20 +98,21 @@ p{
     display: table;
     margin: 20px;
 }
+
 footer{
+    height: 12%;
     border-radius: 9px;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
-    background-color: #0A0B0F;
     color: lime;
-    margin: auto;
+    margin: 5px;
     text-align: center;
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
     border: 5px solid;
-    padding: 7px 13px;
+    padding: 5px;
 }
 .parrafo {
     border-radius: 9px;
@@ -103,11 +120,15 @@ footer{
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
-    background-color: #0A0B0F;
     color: lime;
     margin: auto;
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
     border: 5px solid;
     padding: 7px 13px;
+}
+.icono {
+    content: url(/images/bola8transp.png);
+    width: 1.5cm;
+    vertical-align: middle;
 }

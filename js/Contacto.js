@@ -1,3 +1,4 @@
+function comenzar(){
 /* Inicio de comienzo de estilo */
 document.write(`
 <!DOCTYPE html>
@@ -12,29 +13,13 @@ document.write(`
 <body>
     <section class="full">
         <div class="full-inner">
-            <div class="content">`)
-/* Fin comienzo de estilo */
-document.write("<h1>Ejercicio 2</h1>");
-document.write("<h2>Tabla del 3</h2>");
-let i=1;
-let resultado=1;
-while(i<=10){
-    resultado = i * 3;
-    document.write(`<h3>${i}x3=${resultado}<br></h3>`);
-    i++;
-}
-document.write("<h3>");
-document.write(`<a href="index.html">Inicio</a>`);
-document.write("</h3>");
-/* Inicio fin de estilo */
-document.write(`
+            <div class="content">
             </div>
         </div>
     </section>
-    /* ==============================CONTACTO============================== */
+
 <section id="contact"> <!-- HTML5 section tag for the contact 'section' -->
-    
-    <h2 class="contact">Contact Me</h2>
+        <h2 class="contact">Contact Me</h2>
     <p>Alguna huevada en parrafo</p>
     <form id="contactform"> 
         <p><label for="name">Name</label></p> 
@@ -55,3 +40,4 @@ Grupo 8<br>
 Alan Abt - Ariel Berurena - Eugenio Regis<br>
 </footer>`)
 /* Fin finalizacion de estilo */
+}
