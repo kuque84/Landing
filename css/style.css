@@ -3,15 +3,16 @@ html, body {
     margin:0;
     width: 100%;
     height: 100%;
+    background: url(/images/fondo.jpeg) no-repeat 50% 50%;
+    background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    display: table;
 }
 
 .full{
     width: 100%;
     height: 100%;
-    background: url(/images/fondo.jpeg) no-repeat 50% 50%;
-    background-repeat:no-repeat;
-	background-attachment: fixed;
-    background-size: cover;
     display: table;
     margin: 0;
     top: 0;    
@@ -22,21 +23,7 @@ html, body {
     vertical-align: middle;
     display: table-cell;
 }
-.full-1{
-    width: 100%;
-    height: 15%;
-    border-radius: 9px;
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    -ms-border-radius: 9px;
-    -o-border-radius: 9px;
-    color: lime;
-    margin: auto;
-    font-family: 'Century Gothic', sans-serif;
-    font-weight: bold;
-    border: 5px solid;
-    padding: 7px 13px;
-}
+
 .content{
     max-width: 700px;
     margin: auto;
@@ -46,19 +33,21 @@ html, body {
 .content h1{
     font-family: 'Century Gothic', sans-serif;
     font-size: 500%;
-    color:lime;
+    color: rgb(234, 190, 63);
     text-shadow: 0 0 300px black;
+    -webkit-text-stroke: 2px black;
 }
 .content h2{
     font-family: 'Century Gothic', sans-serif;
     font-size: 250%;
-    color:lime;
+    color:rgb(234, 190, 63);
     text-shadow: 0 0 300px black;
+    -webkit-text-stroke: 2px black;
 }
 .content h3{
     font-family: 'Century Gothic', sans-serif;
     font-size: 175%;
-    color:lime;
+    color:rgb(234, 190, 63);
     text-shadow: 0 0 300px black;
 }
 
@@ -69,7 +58,8 @@ html, body {
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
     text-decoration: none;
-    color: lime;
+    color: black;
+    -webkit-text-stroke: 0.5px rgb(234, 190, 63);
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
     border: 5px solid;
@@ -77,26 +67,8 @@ html, body {
 }
 
 .content a:hover{
-    color: gold;
-}
-
-p{
-    font: 160%;
-    line-height: 200%;
-    margin: 3%;
-    font-family: sans-serif;
-}
-
-.título{
-    font-family: 'Century Gothic', sans-serif;
-    font-weight: bold;
-    display: table;
-    margin: 10px;
-}
-.contenido{
-    font-family: 'Century Gothic', sans-serif;
-    display: table;
-    margin: 20px;
+    color: rgb(234, 190, 63);
+    -webkit-text-stroke: 0.5px black;
 }
 
 footer{
@@ -106,7 +78,7 @@ footer{
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
-    color: lime;
+    color: rgb(234, 190, 63);
     margin: 5px;
     text-align: center;
     font-family: 'Century Gothic', sans-serif;
@@ -120,15 +92,28 @@ footer{
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
-    color: lime;
+    color: rgb(234, 190, 63);
     margin: auto;
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
-    border: 5px solid;
     padding: 7px 13px;
+    -webkit-text-stroke: 1px black;
 }
 .icono {
     content: url(/images/bola8transp.png);
     width: 1.5cm;
     vertical-align: middle;
+}
+input {
+    background-color: rgb(234, 190, 63, 0.5); 
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+}
+
+textarea {
+    background-color: rgb(234, 190, 63, 0.5); 
+    border-radius: 5px;
+    width: 50%;
+    height: 100px;
 }
