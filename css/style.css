@@ -175,7 +175,7 @@ textarea {
  } 
  .btn-mas label{ 
     cursor: pointer; 
-    background: rgb(234, 190, 63); 
+    background: rgb(234, 190, 63);
     font-size: 23px;
  } 
  #btn-mas:checked ~ .btn-mas label{ 
@@ -183,7 +183,9 @@ textarea {
     font-size: 25px; 
     background-color: red;
  }
- 
+ .btn-mas label:hover{
+    background-color: red;
+ }
  
  
  
