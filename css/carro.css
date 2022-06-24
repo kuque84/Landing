@@ -31,8 +31,14 @@
     overflow: hidden;
     }
     #slider article img {
-    width: 50%;
-    max-width:100% !important;
+    
+    width: 45%;
+    max-width:50% !important;
+    /*
+    height: 80%;
+    max-height: 100%;
+    */
+
     }
     #slides .inner {
     width: 1000%;
@@ -70,7 +76,7 @@
     background: rgba(234, 190, 63);
     }
     #active label:hover {
-    background: #ccc;
+    background: red;
     border-color: #777 !important;
     }
     #controls label:hover {

@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Perfeccioná tu estilo</title>
     <link rel="stylesheet" href="/css/carro.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/logo-barberia.png">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
         <div class="content">
-            <h1 class="content">Barberia Zion</h1>
+            <h1 class="content">| Barbería Zion |</h1>
         </div>
         <div id="slider" class="full-slider">
             <input checked type="radio" name="slider" id="slide1">
@@ -27,19 +29,25 @@
                 <div id="overflow">
                     <div class="inner">
                         <article>
-                        <img src="/images/barberia1.jpeg" />
+                        <img src="/images/barberia1.jpeg" width="10cm" height="" />
                         </article>
                         <article>
-                        <img src="/images/barberia2.jpeg" />
+                        <img src="/images/barberia2.jpeg" width="10cm" height="" />
                         </article>
                         <article>
-                        <img src="/images/barberia3.jpeg" />
+                        <img src="/images/barberia3.jpeg" width="10cm" height="" />
                         </article>
                         <article>
-                        <img src="/images/barberia4.jpeg" />
+                        <img src="/images/barberia4.jpeg" width="10cm" height="" />
                         </article>
                         <article>
-                        <img src="/images/fondosalon.jpeg" />
+                        <img src="/images/barberia5.jpeg" width="10cm" height="" />
+                        </article>
+                        <article>
+                        <img src="/images/barberia6.jpeg" width="10cm" height="" />
+                        </article>
+                        <article>
+                        <img src="/images/barberia7.jpeg" width="10cm" height="" />
                         </article>  
                     </div>
                 </div>
@@ -50,6 +58,8 @@
                         <label for="slide3"></label>
                         <label for="slide4"></label>
                         <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
             </div>
             <div id="active">
                         <label for="slide1"></label>
@@ -57,16 +67,31 @@
                         <label for="slide3"></label>
                         <label for="slide4"></label>
                         <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
             </div>
             <br>
             <div class="content">
                 <a href="index.html">Inicio</a>
             </div>
         </div>
+        <div class="container">
+            <input type="checkbox" id="btn-mas">
+            <div class="redes">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+            <div class="btn-mas">
+                <label for="btn-mas" class="fa fa-plus"></label>
+            </div>
+        </div>
         <br><br><br><br>
-    <footer class="footer">
-        <span class="icono"> Grupo 8 </span><br>
-        &copy; Grupo 8 &reg;
-    </footer>
-</body>
-</html>
+        <footer class="footer">
+                <span class="icono"> Grupo 8 </span><br>
+                <a href="javascript:grupo()">&copy; Grupo 8 &reg;</a> 
+        </footer>
+    </body>
+    <script src="./js/botones.js"></script>
+    </html>
